@@ -1,3 +1,71 @@
 body {
-  background-color: grey;
+  background-color: rgba(128, 128, 128, 0.781);
+}
+
+a {
+  text-decoration: none;
+  color: darkred;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+.first-column {
+  display: flex;
+  margin-bottom: -15px;
+}
+
+.second-column {
+  display: flex;
+  margin-top: -15px;
+}
+
+.third-column {
+  display: flex;
+  margin-top: -15px;
+}
+
+.fourth-column {
+  display: flex;
+  margin-top: -15px;
+}
+
+.fifth-column {
+  display: flex;
+  margin-top: -15px;
+}
+
+.sixth-column {
+  display: flex;
+  margin-top: -15px;
+}
+
+.seventh-column {
+  display: flex;
+  margin-top: -15px;
+}
+
+.eighth-column {
+  display: flex;
+  margin-top: -15px;
+}
+
+div {
+  width: 70px;
+  height: 60px;
+}
+
+.white {
+  background-color: rgba(255, 255, 255, 0.808);
+}
+
+.black {
+  background-color: rgba(0, 128, 0, 0.849);
+}
+
+div:hover {
+  background-color: rgba(255, 0, 0, 0.726);
 }
