@@ -54,7 +54,7 @@ li {
 }
 
 div {
-  width: 70px;
+  width: 65px;
   height: 60px;
 }
 
@@ -63,9 +63,57 @@ div {
 }
 
 .black {
-  background-color: rgba(0, 128, 0, 0.849);
+  background-color: rgba(5, 107, 5, 0.603);
 }
 
 div:hover {
-  background-color: rgba(255, 0, 0, 0.726);
+  background-color: rgba(255, 0, 0, 0.692);
+}
+
+p {
+  font-size: 18px;
+  position: relative;
+  margin-left: 42px;
+  bottom: 31pc;
+  display: flex;
+}
+
+.one {
+  bottom: 22pc;
+  color: rgba(255, 255, 255, 0.815);
+}
+
+.two {
+  bottom: 23.5pc;
+  color: rgba(0, 0, 0, 0.836);
+}
+
+.three {
+  bottom: 24.8pc;
+  color: rgba(255, 255, 255, 0.815);
+}
+
+.four {
+  bottom: 26.2pc;
+  color: rgba(0, 0, 0, 0.836);
+}
+
+.five {
+  bottom: 27.5pc;
+  color: rgba(255, 255, 255, 0.815);
+}
+
+.six {
+  bottom: 29pc;
+  color: rgba(0, 0, 0, 0.836);
+}
+
+.seven {
+  bottom: 30.2pc;
+  color: rgba(255, 255, 255, 0.815);
+}
+
+.eight {
+  bottom: 31.5pc;
+  color: rgba(0, 0, 0, 0.836);
 }
