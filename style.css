@@ -7,6 +7,9 @@ a {
   color: darkred;
   font-size: 40px;
   cursor: pointer;
+  position: fixed;
+  top: 5px;
+  left: 10px;
 }
 
 li {
