@@ -2,12 +2,17 @@ body {
   background-color: rgba(128, 128, 128, 0.781);
 }
 
+main {
+  position: relative;
+  left: 20pc;
+  margin-top: 30px;
+}
+
 a {
   text-decoration: none;
   color: darkred;
   font-size: 40px;
   cursor: pointer;
-  position: fixed;
   top: 5px;
   left: 10px;
 }
@@ -67,56 +72,27 @@ div {
 
 .black {
   background-color: rgba(5, 107, 5, 0.603);
+  /**/
+  color: white;
+  /**/
 }
 
 div:hover {
-  background-color: rgba(255, 0, 0, 0.692);
+  box-shadow: 0px 0px 4px gray inset;
 }
 
-p {
-  font-size: 18px;
-  position: relative;
-  margin-left: 42px;
-  bottom: 31pc;
-  display: flex;
+div:active {
+  border-radius: 2px;
+  box-shadow: 2px 2px 3px black;
+  background-color: rgba(238, 255, 0, 0.63);
 }
 
-.one {
-  bottom: 22pc;
-  color: rgba(255, 255, 255, 0.815);
+img {
+  width: 70px;
+  height: 70px;
+  cursor: grab;
 }
 
-.two {
-  bottom: 23.5pc;
-  color: rgba(0, 0, 0, 0.836);
-}
-
-.three {
-  bottom: 24.8pc;
-  color: rgba(255, 255, 255, 0.815);
-}
-
-.four {
-  bottom: 26.2pc;
-  color: rgba(0, 0, 0, 0.836);
-}
-
-.five {
-  bottom: 27.5pc;
-  color: rgba(255, 255, 255, 0.815);
-}
-
-.six {
-  bottom: 29pc;
-  color: rgba(0, 0, 0, 0.836);
-}
-
-.seven {
-  bottom: 30.2pc;
-  color: rgba(255, 255, 255, 0.815);
-}
-
-.eight {
-  bottom: 31.5pc;
-  color: rgba(0, 0, 0, 0.836);
+img:active {
+  cursor: grabbing;
 }
