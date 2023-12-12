@@ -13,8 +13,9 @@ a {
   color: darkred;
   font-size: 40px;
   cursor: pointer;
-  top: 5px;
-  left: 10px;
+  top: 0;
+  left: 0;
+  position: fixed;
 }
 
 li {
